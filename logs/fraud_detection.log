@@ -1,0 +1,102 @@
+2025-06-16 15:51:57,740 - fraud_detection - INFO - Testing our setup!
+2025-06-16 16:01:58,462 - fraud_detection - INFO - Starting Fraud Detection System
+2025-06-16 16:01:58,463 - fraud_detection - INFO - Setting up project environment...
+2025-06-16 16:01:58,463 - fraud_detection - INFO - Created project directories
+2025-06-16 16:01:58,463 - fraud_detection - INFO - Project setup completed successfully!
+2025-06-16 16:01:58,463 - fraud_detection - INFO - You can now proceed with data download and model training
+2025-06-18 22:53:00,608 - fraud_detection - INFO - 📁 Dataset not found. Creating new sample dataset...
+2025-06-18 22:53:00,608 - fraud_detection - INFO - Creating sample fraud detection dataset...
+2025-06-18 22:53:00,608 - fraud_detection - INFO - Generating 1000 transactions with 20 fraudulent ones
+2025-06-18 22:53:00,636 - fraud_detection - INFO - ✅ Dataset created: 1000 transactions (20 fraudulent)
+2025-06-18 22:53:00,637 - fraud_detection - INFO - ✅ Fraud rate: 2.0%
+2025-06-18 22:53:00,637 - fraud_detection - INFO - ✅ Saved to: data/raw/sample_fraud_data.csv
+2025-06-18 22:53:00,637 - fraud_detection - INFO - 🔍 === DATASET EXPLORATION ===
+2025-06-18 22:53:00,637 - fraud_detection - INFO - 📊 Dataset shape: 1000 rows, 31 columns
+2025-06-18 22:53:00,637 - fraud_detection - INFO - 📋 Features: ['Time', 'Amount', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6', 'V7', 'V8', 'V9', 'V10', 'V11', 'V12', 'V13', 'V14', 'V15', 'V16', 'V17', 'V18', 'V19', 'V20', 'V21', 'V22', 'V23', 'V24', 'V25', 'V26', 'V27', 'V28', 'Class']
+2025-06-18 22:53:00,637 - fraud_detection - INFO - ❓ Missing values: 0
+2025-06-18 22:53:00,637 - fraud_detection - INFO - ✅ Normal transactions: 980
+2025-06-18 22:53:00,637 - fraud_detection - INFO - 🚨 Fraud transactions: 20.0
+2025-06-18 22:53:00,637 - fraud_detection - INFO - 📈 Fraud percentage: 2.00%
+2025-06-18 22:53:00,637 - fraud_detection - INFO - 💰 === TRANSACTION AMOUNTS ===
+2025-06-18 22:53:00,637 - fraud_detection - INFO - 💵 Average amount: $36.75
+2025-06-18 22:53:00,638 - fraud_detection - INFO - 💵 Median amount: $21.11
+2025-06-18 22:53:00,638 - fraud_detection - INFO - 💵 Max amount: $788.38
+2025-06-18 22:53:00,638 - fraud_detection - INFO - 💵 Min amount: $0.57
+2025-06-18 22:53:00,638 - fraud_detection - INFO - 💰 Average normal transaction: $34.57
+2025-06-18 22:53:00,638 - fraud_detection - INFO - 🚨 Average fraud transaction: $143.74
+2025-06-18 23:04:12,096 - fraud_detection - INFO - Starting Fraud Detection System
+2025-06-18 23:04:12,096 - fraud_detection - INFO - Loading and exploring fraud detection dataset...
+2025-06-18 23:04:12,442 - fraud_detection - INFO - 📁 Loading existing dataset from: data/raw/sample_fraud_data.csv
+2025-06-18 23:04:12,450 - fraud_detection - INFO - ✅ Dataset loaded: 1000 transactions
+2025-06-18 23:04:12,450 - fraud_detection - INFO - ✅ Fraud transactions: 20.0
+2025-06-18 23:04:12,450 - fraud_detection - INFO - ✅ Fraud rate: 2.00%
+2025-06-18 23:04:12,450 - fraud_detection - INFO - 🔍 === DATASET EXPLORATION ===
+2025-06-18 23:04:12,450 - fraud_detection - INFO - 📊 Dataset shape: 1000 rows, 31 columns
+2025-06-18 23:04:12,450 - fraud_detection - INFO - 📋 Features: ['Time', 'Amount', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6', 'V7', 'V8', 'V9', 'V10', 'V11', 'V12', 'V13', 'V14', 'V15', 'V16', 'V17', 'V18', 'V19', 'V20', 'V21', 'V22', 'V23', 'V24', 'V25', 'V26', 'V27', 'V28', 'Class']
+2025-06-18 23:04:12,451 - fraud_detection - INFO - ❓ Missing values: 0
+2025-06-18 23:04:12,451 - fraud_detection - INFO - ✅ Normal transactions: 980
+2025-06-18 23:04:12,451 - fraud_detection - INFO - 🚨 Fraud transactions: 20.0
+2025-06-18 23:04:12,451 - fraud_detection - INFO - 📈 Fraud percentage: 2.00%
+2025-06-18 23:04:12,451 - fraud_detection - INFO - 💰 === TRANSACTION AMOUNTS ===
+2025-06-18 23:04:12,451 - fraud_detection - INFO - 💵 Average amount: $36.75
+2025-06-18 23:04:12,452 - fraud_detection - INFO - 💵 Median amount: $21.11
+2025-06-18 23:04:12,452 - fraud_detection - INFO - 💵 Max amount: $788.38
+2025-06-18 23:04:12,452 - fraud_detection - INFO - 💵 Min amount: $0.57
+2025-06-18 23:04:12,453 - fraud_detection - INFO - 💰 Average normal transaction: $34.57
+2025-06-18 23:04:12,453 - fraud_detection - INFO - 🚨 Average fraud transaction: $143.74
+2025-06-18 23:04:12,453 - fraud_detection - INFO - Dataset ready for model training!
+2025-06-18 23:28:59,480 - fraud_detection - INFO - Starting Fraud Detection System
+2025-06-18 23:28:59,481 - fraud_detection - INFO - Starting machine learning model training...
+2025-06-18 23:28:59,848 - fraud_detection - ERROR - ❌ Error during model training: No module named 'joblib'
+2025-06-18 23:30:38,555 - fraud_detection - INFO - Starting Fraud Detection System
+2025-06-18 23:30:38,555 - fraud_detection - INFO - Starting machine learning model training...
+2025-06-18 23:30:58,158 - fraud_detection - ERROR - ❌ Error during model training: No module named 'xgboost'
+2025-06-18 23:32:28,162 - fraud_detection - INFO - Starting Fraud Detection System
+2025-06-18 23:32:28,162 - fraud_detection - INFO - Starting machine learning model training...
+2025-06-18 23:32:31,959 - fraud_detection - INFO - 🤖 === FRAUD DETECTION MODEL TRAINING ===
+2025-06-18 23:32:31,959 - fraud_detection - INFO - 📁 Loading existing dataset from: data/raw/sample_fraud_data.csv
+2025-06-18 23:32:31,967 - fraud_detection - INFO - ✅ Dataset loaded: 1000 transactions
+2025-06-18 23:32:31,967 - fraud_detection - INFO - ✅ Fraud transactions: 20.0
+2025-06-18 23:32:31,967 - fraud_detection - INFO - ✅ Fraud rate: 2.00%
+2025-06-18 23:32:31,967 - fraud_detection - INFO - 🔧 Preparing data for machine learning...
+2025-06-18 23:32:31,969 - fraud_detection - INFO - 📊 Features shape: (1000, 30)
+2025-06-18 23:32:31,969 - fraud_detection - INFO - 🎯 Target distribution: Normal=980, Fraud=20
+2025-06-18 23:32:31,971 - fraud_detection - INFO - 📚 Training set: 800 samples
+2025-06-18 23:32:31,971 - fraud_detection - INFO - 🧪 Testing set: 200 samples
+2025-06-18 23:32:31,973 - fraud_detection - INFO - ✅ Data preparation completed!
+2025-06-18 23:32:31,973 - fraud_detection - INFO - 🚀 Training fraud detection models...
+2025-06-18 23:32:31,973 - fraud_detection - INFO - ⚖️ Handling class imbalance with SMOTE...
+2025-06-18 23:32:31,974 - fraud_detection - INFO - 📊 Original: Normal=784, Fraud=16
+2025-06-18 23:32:32,091 - fraud_detection - INFO - 📊 Balanced: Normal=784, Fraud=784
+2025-06-18 23:32:32,092 - fraud_detection - INFO - 🎯 Training Random Forest...
+2025-06-18 23:32:32,234 - fraud_detection - INFO - ✅ Random Forest trained! AUC Score: 1.0000
+2025-06-18 23:32:32,234 - fraud_detection - INFO - 📊 Random Forest Classification Report:
+2025-06-18 23:32:32,237 - fraud_detection - INFO - 🎯 Training XGBoost...
+2025-06-18 23:32:32,281 - fraud_detection - INFO - ✅ XGBoost trained! AUC Score: 1.0000
+2025-06-18 23:32:32,281 - fraud_detection - INFO - 📊 XGBoost Classification Report:
+2025-06-18 23:32:32,284 - fraud_detection - INFO - 🏆 Best model: Random Forest (AUC: 1.0000)
+2025-06-18 23:32:32,296 - fraud_detection - INFO - 💾 Model saved: models/best_fraud_model.joblib
+2025-06-18 23:32:32,296 - fraud_detection - INFO - 💾 Scaler saved: models/scaler.joblib
+2025-06-18 23:32:32,297 - fraud_detection - INFO - 🎯 Best model: Random Forest
+2025-06-18 23:32:32,297 - fraud_detection - INFO - 🎉 Model training completed successfully!
+2025-06-18 23:32:32,297 - fraud_detection - INFO - 🎉 Model training completed successfully!
+2025-06-18 23:32:32,297 - fraud_detection - INFO - You can now use 'python main.py serve' to start the API
+2025-06-18 23:51:12,249 - fraud_detection - INFO - Starting Fraud Detection System
+2025-06-18 23:51:12,249 - fraud_detection - INFO - 🚀 Starting Fraud Detection API server...
+2025-06-18 23:51:12,249 - fraud_detection - ERROR - ❌ Error starting API server: No module named 'uvicorn'
+2025-06-18 23:52:10,436 - fraud_detection - INFO - Starting Fraud Detection System
+2025-06-18 23:52:10,436 - fraud_detection - INFO - 🚀 Starting Fraud Detection API server...
+2025-06-18 23:52:10,848 - fraud_detection - ERROR - ❌ Error starting API server: No module named 'fastapi'
+2025-06-18 23:52:27,653 - fraud_detection - INFO - Starting Fraud Detection System
+2025-06-18 23:52:27,654 - fraud_detection - INFO - 🚀 Starting Fraud Detection API server...
+2025-06-18 23:52:28,976 - fraud_detection - INFO - ✅ Model and scaler loaded successfully!
+2025-06-18 23:52:28,977 - fraud_detection - INFO - 📡 API server will be available at:
+2025-06-18 23:52:28,977 - fraud_detection - INFO - 🌐 Main API: http://localhost:8000
+2025-06-18 23:52:28,977 - fraud_detection - INFO - 📚 API Documentation: http://localhost:8000/docs
+2025-06-18 23:52:28,977 - fraud_detection - INFO - 🔍 Health Check: http://localhost:8000/health
+2025-06-18 23:52:28,977 - fraud_detection - INFO - Press Ctrl+C to stop the server
+2025-06-18 23:52:28,987 - fraud_detection - INFO - 🚀 Starting Fraud Detection API Server...
+2025-06-18 23:55:03,516 - fraud_detection - INFO - 🔍 Making fraud prediction for single transaction
+2025-06-18 23:57:19,135 - fraud_detection - INFO - 🔍 Making fraud prediction for single transaction
+2025-06-19 00:00:09,402 - fraud_detection - INFO - 🔍 Making fraud prediction for single transaction
+2025-06-19 00:00:16,584 - fraud_detection - INFO - 🔍 Making fraud prediction for single transaction
